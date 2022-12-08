@@ -1,6 +1,6 @@
 # Python_exercises
 This is the list and the codes of the exercises that I used to study and learn how to code in Python;
-The list from 01 to 115 are all from the original python.org list;
+The exercises from 01 to 115 are all from the original [python.org](https://wiki.python.org.br/ListaDeExercicios) list;
 
 ------------------ SEQUENCE STRUCTURE ------------------
 
