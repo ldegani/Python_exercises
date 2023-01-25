@@ -14,7 +14,7 @@ try to help with what I can
 
 ## Full List:
 
-####------------------ SEQUENCE STRUCTURE ------------------
+#### ------------------ SEQUENCE STRUCTURE ------------------
 
 1 - Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
@@ -88,7 +88,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
 18 - Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet
     (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 
-####------------------ DECISION STRUCTURE(IF/ELSE STATEMENTS) ------------------
+#### ------------------ DECISION STRUCTURE(IF/ELSE STATEMENTS) ------------------
 
 19 - Faça um Programa que peça dois números e imprima o maior deles.
 
@@ -252,7 +252,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
     contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do
     desconto e valor a pagar.
 
-####------------------ LOOPS ------------------
+#### ------------------ LOOPS ------------------
 
 47 - Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido
     e continue pedindo até que o usuário informe um valor válido.
@@ -552,7 +552,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
     
 95 - Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, Faça um programa que calcule o valor de H com N termos.
 
-####------------------------------------ LISTS ------------------------------------
+#### ------------------------------------ LISTS ------------------------------------
 
 96 - Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 
@@ -796,7 +796,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
     Depois, mostre quantas vezes cada valor foi conseguido.
     Dica: use um vetor de contadores(1-6).
 
-####------------------------------------ FUNCTIONS ------------------------------------
+#### ------------------------------------ FUNCTIONS ------------------------------------
 
 119 - Faça um programa para imprimir:
     1
@@ -873,7 +873,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
     Dica: produza todas as combinações possíveis e verifique a soma quando completar cada quadrado. Usar um vetor de
     1 a 9 parece ser mais simples que usar uma matriz 3x3.
 
------------------------------------- STRINGS ------------------------------------
+#### ------------------------------------ STRINGS ------------------------------------
 
 133 - Tamanho de strings. Faça um programa que leia 2 strings e informe o conteúdo delas seguido do seu comprimento.
     Informe também se as duas strings possuem o mesmo comprimento e são iguais ou diferentes no conteúdo.
@@ -977,7 +977,7 @@ F
     iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois,
     faça um programa que peça uma texto e transforme-o para a grafia leet speak
 
-####------------------------------------ FILES ------------------------------------
+#### ------------------------------------ FILES ------------------------------------
 
 147 - Faça um programa que leia um arquivo texto contendo uma lista de endereços IP e gere um outro arquivo, contendo
     um relatório dos endereços IP válidos e inválidos.
@@ -1033,7 +1033,7 @@ F
     ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso
     também deverá ser feito através de uma função, que será chamada pelo programa principal.
 
-####------------------------------------ CLASS ------------------------------------
+#### ------------------------------------ CLASS ------------------------------------
 
 149 - Classe Bola: Crie uma classe que modele uma bola:
 
