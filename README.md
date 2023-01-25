@@ -1,7 +1,18 @@
 # Python_exercises
-This is the list and the codes of the exercises that I used to study and learn how to code in Python;
+
+### What's this:
+Full list of Python exercises that I did to learn the basics of coding.
 
 The exercises from 01 to 115 are all from the original [python.org](https://wiki.python.org.br/ListaDeExercicios) list;
+
+### Know before hand:
+All that list is what I used in the beginning of my programing studies, I was not worried about good pratices in all the way, but I was learning a few of them while I was doing it, so, if you go throw all the list, you will see things getting better on the way.
+
+### Final considerations:
+Hope this get's to you on good hands, if you are starting this list to study, and need clarifications, you can message me and I will
+try to help with what I can
+
+## Full List:
 
 ------------------ SEQUENCE STRUCTURE ------------------
 
@@ -730,3 +741,410 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
     Total gasto com abonos: R$ 1400.00
     Valor mínimo pago a 3 colaboradores
     Maior valor de abono pago: R$ 900.00
+
+116 - Faça um programa que carregue uma lista com os modelos de cinco carros (exemplo de modelos: FUSCA, GOL,
+    VECTRA etc). Carregue uma outra lista com o consumo desses carros, isto é, quantos quilômetros cada um desses
+    carros faz com um litro de combustível. Calcule e mostre:
+    O modelo do carro mais econômico;
+    Quantos litros de combustível cada um dos carros cadastrados consome para percorrer uma distância de 1000
+    quilômetros e quanto isto custará, considerando um que a gasolina custe R$ 2,25 o litro. Abaixo segue uma tela
+    de exemplo. A disposição das informações deve ser o mais próxima possível ao exemplo. Os dados são fictícios e
+    podem mudar a cada execução do programa.
+    Comparativo de Consumo de Combustível
+
+    Veículo 1
+    Nome: fusca
+    Km por litro: 7
+    Veículo 2
+    Nome: gol
+    Km por litro: 10
+    Veículo 3
+    Nome: uno
+    Km por litro: 12.5
+    Veículo 4
+    Nome: Vectra
+    Km por litro: 9
+    Veículo 5
+    Nome: Peugeout
+    Km por litro: 14.5
+
+    Relatório Final
+     1 - fusca           -    7.0 -  142.9 litros - R$ 321.43
+     2 - gol             -   10.0 -  100.0 litros - R$ 225.00
+     3 - uno             -   12.5 -   80.0 litros - R$ 180.00
+     4 - vectra          -    9.0 -  111.1 litros - R$ 250.00
+     5 - peugeout        -   14.5 -   69.0 litros - R$ 155.17
+    O menor consumo é do peugeout.
+
+117 - Sua organização acaba de contratar um estagiário para trabalhar no Suporte de Informática, com a intenção de
+    fazer um levantamento nas sucatas encontradas nesta área. A primeira tarefa dele é testar todos os cerca de 200
+    mouses que se encontram lá, testando e anotando o estado de cada um deles, para verificar o que se pode aproveitar
+    deles.
+    Foi requisitado que você desenvolva um programa para registrar este levantamento. O programa deverá receber um
+    número indeterminado de entradas, cada uma contendo: um número de identificação do mouse o tipo de defeito:
+    necessita da esfera; necessita de limpeza; necessita troca do cabo ou conector; quebrado ou inutilizado.
+    Uma identificação igual a zero encerra o programa. Ao final o programa deverá emitir o seguinte relatório:
+    Quantidade de mouses: 100
+
+    Situação                        Quantidade              Percentual
+    1- necessita da esfera                  40                     40%
+    2- necessita de limpeza                 30                     30%
+    3- necessita troca do cabo ou conector  15                     15%
+    4- quebrado ou inutilizado              15                     15%
+
+118 - Faça um programa que simule um lançamento de dados. Lance o dado 100 vezes e armazene os resultados em um vetor.
+    Depois, mostre quantas vezes cada valor foi conseguido.
+    Dica: use um vetor de contadores(1-6).
+
+------------------------------------ FUNCTIONS ------------------------------------
+
+119 - Faça um programa para imprimir:
+    1
+    2   2
+    3   3   3
+    .....
+    n   n   n   n   n   n  ... n
+    para um n informado pelo usuário. Use uma função que receba um valor n inteiro e imprima até a n-ésima linha.
+
+120 - Faça um programa para imprimir:
+    1
+    1   2
+    1   2   3
+    .....
+    1   2   3   ...  n
+    para um n informado pelo usuário. Use uma função que receba um valor n inteiro imprima até a n-ésima linha.
+
+121 - Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
+
+122 - Faça um programa, com uma função que necessite de um argumento. A função retorna o valor de caractere ‘P’,
+    se seu argumento for positivo, e ‘N’, se seu argumento for zero ou negativo.
+
+123 - Faça um programa com uma função chamada somaImposto. A função possui dois parâmetros formais: taxaImposto,
+    que é a quantia de imposto sobre vendas expressa em porcentagem e custo, que é o custo de um item antes do imposto.
+    A função “altera” o valor de custo para incluir o imposto sobre vendas.
+
+124 - Faça um programa que converta da notação de 24 horas para a notação de 12 horas. Por exemplo, o programa deve
+    converter 14:25 em 2:25 P.M. A entrada é dada em dois inteiros. Deve haver pelo menos duas funções: uma para fazer
+    a conversão e uma para a saída. Registre a informação A.M./P.M. como um valor ‘A’ para A.M. e ‘P’ para P.M.
+    Assim, a função para efetuar as conversões terá um parâmetro formal para registrar se é A.M. ou P.M. Inclua um
+    loop que permita que o usuário repita esse cálculo para novos valores de entrada todas as vezes que desejar.
+
+125 - Faça um programa que use a função valorPagamento para determinar o valor a ser pago por uma prestação de uma
+    conta. O programa deverá solicitar ao usuário o valor da prestação e o número de dias em atraso e passar estes
+    valores para a função valorPagamento, que calculará o valor a ser pago e devolverá este valor ao programa que a
+    chamou. O programa deverá então exibir o valor a ser pago na tela. Após a execução o programa deverá voltar a pedir
+    outro valor de prestação e assim continuar até que seja informado um valor igual a zero para a prestação. Neste
+    momento o programa deverá ser encerrado, exibindo o relatório do dia, que conterá a quantidade e o valor total de
+    prestações pagas no dia. O cálculo do valor a ser pago é feito da seguinte forma. Para pagamentos sem atraso,
+    cobrar o valor da prestação. Quando houver atraso, cobrar 3% de multa, mais 0,1% de juros por dia de atraso.
+
+126 - Faça uma função que informe a quantidade de dígitos de um determinado número inteiro informado
+
+127 - Reverso do número. Faça uma função que retorne o reverso de um número inteiro informado.
+    Por exemplo: 127 -> 721.
+
+128 - Jogo de Craps. Faça um programa de implemente um jogo que Craps. O jogador lança um par de dados, obtendo um
+    valor entre 2 e 12. Se, na primeira jogada, você tirar 7 ou 11, você um "natural" e ganhou. Se você tirar 2, 3 ou
+    12 na primeira jogada, isto é chamado de "craps" e você perdeu. Se, na primeira jogada, você fez um 4, 5, 6, 8, 9
+    ou 10, este é seu "Ponto". Seu objetivo agora é continuar jogando os dados até tirar este número novamente.
+    Você perde, no entanto, se tirar um 7 antes de tirar este Ponto novamente.
+
+129 - Data com mês por extenso. Construa uma função que receba uma data no formato DD/MM/AAAA e devolva uma string no
+    formato D de mesPorExtenso de AAAA. Opcionalmente, valide a data e retorne NULL caso a data seja inválida.
+
+130 - Embaralha palavra. Construa uma função que receba uma string como parâmetro e devolva outra string com os
+    carateres embaralhados. Por exemplo: se função receber a palavra python, pode retornar npthyo, ophtyn ou qualquer
+    outra combinação possível, de forma aleatória. Padronize em sua função que todos os caracteres serão devolvidos em
+    caixa alta ou caixa baixa, independentemente de como foram digitados.
+
+131 - Desenha moldura. Construa uma função que desenhe um retângulo usando os caracteres ‘+’ , ‘−’ e ‘| ‘. Esta função
+    deve receber dois parâmetros, linhas e colunas, sendo que o valor por omissão é o valor mínimo igual a 1 e o valor
+    máximo é 20. Se valores fora da faixa forem informados, eles devem ser modificados para valores dentro da faixa de
+    forma elegante.
+
+** 132 - Quadrado mágico. Um quadrado mágico é aquele dividido em linhas e colunas, com um número em cada posição e no
+    qual a soma das linhas, colunas e diagonais é a mesma. Por exemplo, veja um quadrado mágico de lado 3, com números
+    de 1 a 9:
+
+    8  3  4
+    1  5  9
+    6  7  2
+    Elabore uma função que identifica e mostra na tela todos os quadrados mágicos com as características acima.
+    Dica: produza todas as combinações possíveis e verifique a soma quando completar cada quadrado. Usar um vetor de
+    1 a 9 parece ser mais simples que usar uma matriz 3x3.
+
+------------------------------------ STRINGS ------------------------------------
+
+133 - Tamanho de strings. Faça um programa que leia 2 strings e informe o conteúdo delas seguido do seu comprimento.
+    Informe também se as duas strings possuem o mesmo comprimento e são iguais ou diferentes no conteúdo.
+
+    Compara duas strings
+    String 1: Brasil Hexa 2006
+    String 2: Brasil! Hexa 2006!
+    Tamanho de "Brasil Hexa 2006": 16 caracteres
+    Tamanho de "Brasil! Hexa 2006!": 18 caracteres
+    As duas strings são de tamanhos diferentes.
+    As duas strings possuem conteúdo diferente.
+
+134 - Nome ao contrário em maiúsculas. Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre
+    o nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome
+    o usuário pode digitar letras maiúsculas ou minúsculas.
+
+135 - Nome na vertical. Faça um programa que solicite o nome do usuário e imprima-o na vertical.
+
+    F
+    U
+    L
+    A
+    N
+    O
+
+136 - Nome na vertical em escada. Modifique o programa anterior de forma a mostrar o nome em formato de escada.
+
+    F
+    FU
+    FUL
+    FULA
+    FULAN
+    FULANO
+
+137 - Nome na vertical em escada invertida. Altere o programa anterior de modo que a escada seja invertida.
+
+FULANO
+FULAN
+FULA
+FUL
+FU
+F
+
+138 - Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data
+    com o nome do mês por extenso.
+
+    Data de Nascimento: 29/10/1973
+    Você nasceu em  29 de Outubro de 1973.
+
+139 - Conta espaços e vogais. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco),
+    conte:
+
+    quantos espaços em branco existem na frase.
+    quantas vezes aparecem as vogais a, e, i, o, u.
+
+140 - Palíndromo. Um palíndromo é uma seqüência de caracteres cuja leitura é idêntica se feita da direita para
+    esquerda ou vice−versa. Por exemplo: OSSO e OVO são palíndromos. Em textos mais complexos os espaços e pontuação
+    são ignorados. A frase SUBI NO ONIBUS é o exemplo de uma frase palíndroma onde os espaços foram ignorados.
+    Faça um programa que leia uma seqüência de caracteres, mostre−a e diga se é um palíndromo ou não.
+
+141 - Verificação de CPF. Desenvolva um programa que solicite a digitação de um número de CPF no formato
+    xxx.xxx.xxx-xx e indique se é um número válido ou inválido através da validação dos dígitos verificadores e dos
+    caracteres de formatação.
+
+142 - Número por extenso. Escreva um programa que solicite ao usuário a digitação de um número até 99 e imprima-o na
+    tela por extenso.
+
+143 - Jogo de Forca. Desenvolva um jogo da forca. O programa terá uma lista de palavras lidas de um arquivo texto e
+    escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
+
+    Digite uma letra: A
+    -> Você errou pela 1ª vez. Tente de novo!
+
+    Digite uma letra: O
+    A palavra é: _ _ _ _ O
+
+    Digite uma letra: E
+    A palavra é: _ E _ _ O
+
+    Digite uma letra: S
+    -> Você errou pela 2ª vez. Tente de novo!
+
+144 - Valida e corrige número de telefone. Faça um programa que leia um número de telefone, e corrija o número no
+    caso deste conter somente 7 dígitos, acrescentando o '3' na frente. O usuário pode informar o número com ou sem
+    o traço separador.
+
+    Valida e corrige número de telefone
+    Telefone: 461-0133
+    Telefone possui 7 dígitos. Vou acrescentar o digito três na frente.
+    Telefone corrigido sem formatação: 34610133
+    Telefone corrigido com formatação: 3461-0133
+
+145 - Jogo da palavra embaralhada. Desenvolva um jogo em que o usuário tenha que adivinhar uma palavra que será
+    mostrada com as letras embaralhadas. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá
+    uma aleatoriamente. O jogador terá seis tentativas para adivinhar a palavra. Ao final a palavra deve ser
+    mostrada na tela, informando se o usuário ganhou ou perdeu o jogo.
+  
+146 - Leet spek generator. Leet é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das
+    letras, como números por exemplo. A própria palavra leet admite muitas variações, como l33t ou 1337. O uso do leet
+    reflete um subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os
+    iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois,
+    faça um programa que peça uma texto e transforme-o para a grafia leet speak
+
+------------------------------------ FILES ------------------------------------
+
+147 - Faça um programa que leia um arquivo texto contendo uma lista de endereços IP e gere um outro arquivo, contendo
+    um relatório dos endereços IP válidos e inválidos.
+    O arquivo de entrada possui o seguinte formato:
+    200.135.80.9
+    192.168.1.1
+    8.35.67.74
+    257.32.4.5
+    85.345.1.2
+    1.2.3.4
+    9.8.234.5
+    192.168.0.256
+    O arquivo de saída possui o seguinte formato:
+    [Endereços válidos:]
+    200.135.80.9
+    192.168.1.1
+    8.35.67.74
+    1.2.3.4
+
+    [Endereços inválidos:]
+    257.32.4.5
+    85.345.1.2
+    9.8.234.5
+    192.168.0.256
+
+148 - A ACME Inc., uma empresa de 500 funcionários, está tendo problemas de espaço em disco no seu servidor de
+    arquivos. Para tentar resolver este problema, o Administrador de Rede precisa saber qual o espaço ocupado pelos
+    usuários, e identificar os usuários com maior espaço ocupado. Através de um programa, baixado da Internet, ele
+    conseguiu gerar o seguinte arquivo, chamado "usuarios.txt":
+    alexandre       456123789
+    anderson        1245698456
+    antonio         123456456
+    carlos          91257581
+    cesar           987458
+    rosemary        789456125
+    Neste arquivo, o nome do usuário possui 15 caracteres. A partir deste arquivo, você deve criar um programa que
+    gere um relatório, chamado "relatório.txt", no seguinte formato:
+    ACME Inc.               Uso do espaço em disco pelos usuários
+    ------------------------------------------------------------------------
+    Nr.  Usuário        Espaço utilizado     % do uso
+
+    1    alexandre       434,99 MB             16,85%
+    2    anderson       1187,99 MB             46,02%
+    3    antonio         117,73 MB              4,56%
+    4    carlos           87,03 MB              3,37%
+    5    cesar             0,94 MB              0,04%
+    6    rosemary        752,88 MB             29,16%
+
+    Espaço total ocupado: 2581,57 MB
+    Espaço médio ocupado: 430,26 MB
+    O arquivo de entrada deve ser lido uma única vez, e os dados armazenados em memória, caso sejam necessários, de
+    forma a agilizar a execução do programa. A conversão do espaço ocupado em disco, de bytes para megabytes deverá
+    ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso
+    também deverá ser feito através de uma função, que será chamada pelo programa principal.
+
+------------------------------------ CLASS ------------------------------------
+
+149 - Classe Bola: Crie uma classe que modele uma bola:
+
+    Atributos: Cor, circunferência, material
+    Métodos: trocaCor e mostraCor
+
+150 - Classe Quadrado: Crie uma classe que modele um quadrado:
+
+    Atributos: Tamanho do lado
+    Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
+
+151 - Classe Retangulo: Crie uma classe que modele um retangulo:
+
+    Atributos: LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher)
+    Métodos: Mudar valor dos lados, Retornar valor dos lados, calcular Área e calcular Perímetro;
+    Crie um programa que utilize esta classe. Ele deve pedir ao usuário que informe as medidades de um local.
+    Depois, deve criar um objeto com as medidas e calcular a quantidade de pisos e de rodapés necessárias para o
+    local.
+
+152 - Classe Pessoa: Crie uma classe que modele uma pessoa:
+
+    Atributos: nome, idade, peso e altura
+    Métodos: Envelhercer, engordar, emagrecer, crescer. Obs: Por padrão, a cada ano que nossa pessoa envelhece, sendo
+    a idade dela menor que 21 anos, ela deve crescer 0,5 cm.
+
+153 - Classe Conta Corrente: Crie uma classe para implementar uma conta corrente. A classe deve possuir os seguintes
+    atributos: número da conta, nome do correntista e saldo. Os métodos são os seguintes: alterarNome, depósito e
+    saque; No construtor, saldo é opcional, com valor default zero e os demais atributos são obrigatórios.
+
+154 - Classe TV: Faça um programa que simule um televisor criando-o como um objeto. O usuário deve ser capaz de
+    informar o número do canal e aumentar ou diminuir o volume. Certifique-se de que o número do canal e o nível do
+    volume permanecem dentro de faixas válidas.
+
+155 - Classe Bichinho Virtual:Crie uma classe que modele um Tamagushi (Bichinho Eletrônico):
+    Atributos: Nome, Fome, Saúde e Idade b. Métodos: Alterar Nome, Fome, Saúde e Idade; Retornar Nome, Fome, Saúde e
+    Idade Obs: Existe mais uma informação que devemos levar em consideração, o Humor do nosso tamagushi, este humor
+    é uma combinação entre os atributos Fome e Saúde, ou seja, um campo calculado, então não devemos criar um atributo
+    para armazenar esta informação por que ela pode ser calculada a qualquer momento.
+
+156 - Classe Macaco: Desenvolva uma classe Macaco,que possua os atributos nome e bucho (estomago) e pelo menos os
+    métodos comer(), verBucho() e digerir(). Faça um programa ou teste interativamente, criando pelo menos dois
+    macacos, alimentando-os com pelo menos 3 alimentos diferentes e verificando o conteúdo do estomago a cada
+    refeição. Experimente fazer com que um macaco coma o outro. É possível criar um macaco canibal?
+
+157 - Classe Ponto e Retangulo: Faça um programa completo utilizando funções e classes que:
+    Possua uma classe chamada Ponto, com os atributos x e y.
+    Possua uma classe chamada Retangulo, com os atributos largura e altura.
+    Possua uma função para imprimir os valores da classe Ponto
+    Possua uma função para encontrar o centro de um Retângulo.
+    Você deve criar alguns objetos da classe Retangulo.
+    Cada objeto deve ter um vértice de partida, por exemplo, o vértice inferior esquerdo do retângulo, que deve ser
+    um objeto da classe Ponto.
+    A função para encontrar o centro do retângulo deve retornar o valor para um objeto do tipo ponto que indique os
+    valores de x e y para o centro do objeto.
+    O valor do centro do objeto deve ser mostrado na tela
+    Crie um menu para alterar os valores do retângulo e imprimir o centro deste retângulo.
+
+158 - Classe Bomba de Combustível: Faça um programa completo utilizando classes e métodos que:
+
+    Possua uma classe chamada bomba_combustível, com no mínimo esses atributos:
+    tipo_combustivel, valor_litro, quantidade_combustivel
+    Possua no mínimo esses métodos:
+    abastecer_valor( ) – método onde é informado o valor a ser abastecido e mostra a quantidade de litros que foi
+    colocada no veículo
+    abastecer_litro( ) – método onde é informado a quantidade em litros de combustível e mostra o valor a ser pago
+    pelo cliente.
+    alterar_valor( ) – altera o valor do litro do combustível.
+    alterar_combustivel( ) – altera o tipo do combustível.
+    alterar_quantidade_combustivel( ) – altera a quantidade de combustível restante na bomba.
+    OBS: Sempre que acontecer um abastecimento é necessário atualizar a quantidade de combustível total na bomba.
+
+159 - Classe carro: Implemente uma classe chamada Carro com as seguintes propriedades:
+
+    Um veículo tem um certo consumo de combustível (medidos em km / litro) e uma certa quantidade de combustível
+    no tanque. O consumo é especificado no construtor e o nível de combustível inicial é 0.
+    Forneça um método andar() que simule o ato de dirigir o veículo por uma certa distância, reduzindo o nível de
+    combustível no tanque de gasolina.
+    Forneça um método get_gasolina(), que retorna o nível atual de combustível.
+    Forneça um método adicionar_gasolina(), para abastecer o tanque. Exemplo de uso:
+    meuFusca = Carro(15);           # 15 quilômetros por litro de combustível.
+    meuFusca.adicionar_gasolina(20); # abastece com 20 litros de combustível.
+    meuFusca.andar(100);            # anda 100 quilômetros.
+    meuFusca.get_gasolina()        # Imprime o combustível que resta no tanque.
+
+160 - Classe Conta de Investimento: Faça uma classe contaInvestimento que seja semelhante a classe contaBancaria, com
+    a diferença de que se adicione um atributo taxaJuros. Forneça um construtor que configure tanto o saldo inicial
+    como a taxa de juros. Forneça um método adicioneJuros (sem parâmetro explícito) que adicione juros à conta.
+    Escreva um programa que construa uma poupança com um saldo inicial de R$1000,00 e uma taxa de juros de 10%.
+    Depois aplique o método adicioneJuros() cinco vezes e imprime o saldo resultante.
+
+161 - Classe Funcionário: Implemente a classe Funcionário. Um empregado tem um nome (um string) e um
+    salário(um double). Escreva um construtor com dois parâmetros (nome e salário) e métodos para devolver nome e
+    salário. Escreva um pequeno programa que teste sua classe.
+
+162 - Aprimore a classe do exercício anterior para adicionar o método aumentarSalario (porcentualDeAumento) que
+    aumente o salário do funcionário em uma certa porcentagem.
+    Exemplo de uso:
+    harry=funcionário("Harry",25000)
+    harry.aumentarSalario(10)
+
+163 - Classe Bichinho Virtual++: Melhore o programa do bichinho virtual, permitindo que o usuário especifique quanto
+    de comida ele fornece ao bichinho e por quanto tempo ele brinca com o bichinho. Faça com que estes valores afetem
+    quão rapidamente os níveis de fome e tédio caem. * Humor aumenta
+
+164 - Crie uma "porta escondida" no programa do programa do bichinho virtual que mostre os valores exatos dos
+    atributos do objeto. Consiga isto mostrando o objeto quando uma opção secreta, não listada no menu, for informada
+    na escolha do usuário. Dica: acrescente um método especial str() à classe Bichinho.
+
+165 - Crie uma Fazenda de Bichinhos instanciando vários objetos bichinho e mantendo o controle deles através de uma
+    lista. Imite o funcionamento do programa básico, mas ao invés de exigir que o usuário tome conta de um único
+    bichinho, exija que ele tome conta da fazenda inteira. Cada opção do menu deveria permitir que o usuário
+    executasse uma ação para todos os bichinhos (alimentar todos os bichinhos, brincar com todos os bichinhos, ou
+    ouvir a todos os bichinhos). Para tornar o programa mais interessante, dê para cada bichinho um nivel inicial
+    aleatório de fome e tédio.
