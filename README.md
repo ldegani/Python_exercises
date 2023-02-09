@@ -3,7 +3,7 @@
 ### What's this:
 Full list of Python exercises that I did to learn the basics of coding.
 
-The exercises from 01 to 115 are all from the original [python.org](https://wiki.python.org.br/ListaDeExercicios) list;
+The exercises from 01 to 165 are all from the original [python.org](https://wiki.python.org.br/ListaDeExercicios) list;
 
 ### Know before hand:
 All that list is what I used in the beginning of my programing studies, I was not worried about good pratices in all the way, but I was learning a few of them while I was doing it, so, if you go throw all the list, you will see things getting better on the way.
